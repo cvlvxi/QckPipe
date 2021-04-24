@@ -33,3 +33,6 @@ A Quick a dirty pipeline framework written in Haskell
 
 - Binaries in bin/
 
+## Design
+- See [Design Doc v1](docs/design.md)
+
