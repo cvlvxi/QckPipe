@@ -1,18 +1,20 @@
 ```
+⠀⠀⠀⣴⣿⣿⠟⠁⠀⠀⠀⣶⣶⣶⣶⡆⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣦⠀⠀⠀ ooooooooo ooooo oooooooooo ooooooooooo 
+⠀⠀⣼⣿⣿⠋⠀⠀⠀⠀⠀⠛⠛⢻⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣧⠀⠀ 888    888 888   888    888 888    
+⠀⢸⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⡇⠀ 888oooo88  888   888oooo88  888ooo
+⠀⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠀ 888        888   888        888    
+⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⡟⢹⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⣹⣿⣿⠀ 888o      o888o o888o      o888ooo8888 
+⠀⣿⣿⣷⠀⠀⠀⠀⠀⠀⣰⣿⣿⠏⠀⠀⢻⣿⣿⡄⠀⠀⠀⠀⠀⠀⣿⣿⡿⠀
+⠀⢸⣿⣿⡆⠀⠀⠀⠀⣴⣿⡿⠃⠀⠀⠀⠈⢿⣿⣷⣤⣤⡆⠀⠀⣰⣿⣿⠇⠀
+⠀⠀⢻⣿⣿⣄⠀⠀⠾⠿⠿⠁⠀⠀⠀⠀⠀⠘⣿⣿⡿⠿⠛⠀⣰⣿⣿⡟⠀⠀
+                                      
 
- _____ _____  _   ________ ___________ _____  
-|  _  /  __ \| | / /| ___ \_   _| ___ \  ___| 
-| | | | /  \/| |/ / | |_/ / | | | |_/ / |__   
-| | | | |    |    \ |  __/  | | |  __/|  __|  
-\ \/' / \__/\| |\  \| |    _| |_| |   | |___  
- \_/\_\\____/\_| \_/\_|    \___/\_|   \____/  
-                                              
-                                              
-
-
+                                        
 ```
 
 <!-- vscode-markdown-toc -->
+* 1. [Adhoc compile steps](#Adhoccompilesteps)
+* 2. [Design](#Design)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -23,16 +25,16 @@
 
 A Quick a dirty pipeline framework written in Haskell
 
-## <a name='Adhoccompilesteps'></a>Adhoc compile steps
+##  1. <a name='Adhoccompilesteps'></a>Adhoc compile steps
 
 - Ensure GHC setup
 
 ```
-./run [haskellfile.hs]`
+make
 ```
 
 - Binaries in bin/
 
-## Design
+##  2. <a name='Design'></a>Design
 - See [Design Doc v1](docs/design.md)
 
