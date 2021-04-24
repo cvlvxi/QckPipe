@@ -25,15 +25,15 @@
 
 A Quick a dirty pipeline framework written in Haskell
 
-##  1. <a name='Adhoccompilesteps'></a>Adhoc compile steps
-
-- Ensure GHC setup
+## Build/run
+- Ensure GHCup setup
+- https://www.haskell.org/ghcup/
 
 ```
-make
+cabal run
+cabal build
 ```
 
-- Binaries in bin/
 
 ##  2. <a name='Design'></a>Design
 - See [Design Doc v1](docs/design.md)
